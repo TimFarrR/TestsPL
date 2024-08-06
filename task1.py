@@ -18,7 +18,7 @@ def find_path(n, m):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python task1.py <n> <m>")
+        print("Введите: python task1.py n m")
         sys.exit(1)
     
     n = int(sys.argv[1])
