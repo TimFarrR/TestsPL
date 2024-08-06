@@ -11,7 +11,7 @@ def min_moves_to_equal_elements(nums):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Использование: python program.py <путь_к_файлу>")
+        print("Введите: python task4.py input.txt")
         sys.exit(1)
 
     file_path = sys.argv[1]
