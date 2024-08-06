@@ -28,7 +28,7 @@ def get_point_position(circle, point):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python task2.py circle.txt points.txt")
+        print("Введите: python task2.py circle.txt points.txt")
         return
     
     circle_file = sys.argv[1]
