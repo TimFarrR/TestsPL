@@ -32,7 +32,7 @@ def main(values_path, tests_path, report_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python script.py <values.json> <tests.json> <report.json>")
+        print("Введите: python task3.py values.json tests.json report.json")
         sys.exit(1)
 
     values_path = sys.argv[1]
